@@ -1,6 +1,6 @@
 # Compound Marketing Agent
 
-Analyse marketing campaign metrics and receive growth experiment recommendations.
+Analyses marketing campaign metrics and recommends the highest-leverage growth experiment to test.
 
 No coding experience required.
 
@@ -58,13 +58,11 @@ Keep working with the agent in Claude Code for deeper analysis:
 Delivery is only offered after the first recommendation exists.
 
 - **Manual in Claude Code** (default): review, approve, edit, or reject recommendations directly in chat
-- **Email via Resend:** requires a Resend API key and sender email.
-  Go to [Resend API keys](https://resend.com/api-keys), create a key, then paste the key in chat when the agent asks. The agent will also ask which sender email and delivery inbox to use
-- **Slack via incoming webhook:** requires a Slack webhook URL.
-  Go to [Slack apps](https://api.slack.com/apps), create an app, enable Incoming Webhooks, then paste the webhook URL in chat when the agent asks. The agent will also ask which Slack channel to notify
+- **Email via Resend:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat. The agent will then ask for the sender email and delivery inbox
+- **Slack via incoming webhook:** when the agent asks, open [Slack app setup](https://api.slack.com/apps), create an Incoming Webhook for the channel you want, and paste the webhook URL into chat
 - **Email + Slack:** full recommendation by email, condensed notification in Slack
 
-Delivery method, destination, schedule, and timezone are stored in the `delivery` table inside `marketing.db`.
+You can set up or change delivery directly in chat.
 
 ## How it works
 
