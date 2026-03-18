@@ -1,6 +1,6 @@
 # Compound Marketing Agent
 
-Analyse marketing campaign metrics and receive experiment recommendations based on data.
+Analyse marketing campaign metrics and receive growth experiment recommendations.
 
 No coding experience required.
 
@@ -21,10 +21,10 @@ git clone https://github.com/ryan-hennebry/compound-marketing.git && cd compound
 ## The onboarding flow
 
 - Share your company URL or company name
-- The agent researches your positioning, ICP, differentiators, and proposes 3-5 company perceptions to validate
+- The agent researches your positioning, audience, differentiators, and proposes 3-5 company perceptions to validate
 - Choose which channels to track
-- For each channel, connect API access or set it up for CSV/manual input
-- The agent establishes baselines, reviews performance patterns, and generates the first recommendation
+- If a channel needs access, the agent walks you through connecting it or using CSV/manual input
+- The agent reviews performance patterns and generates the first recommendation
 - Delivery stays optional until that first recommendation exists
 
 ## Visual proof
@@ -37,7 +37,7 @@ git clone https://github.com/ryan-hennebry/compound-marketing.git && cd compound
 Each cycle produces one recommendation with:
 
 - Signal context: whether the change looks meaningful or more likely to be noise
-- A brief covering the goal, audience, channels, and creative direction
+- A short brief covering the goal, audience, channels, and creative direction
 - Customer-story framing for the draft
 - A one-sentence recommendation summary with expected impact and confidence
 - Draft content in the right format for the chosen channel
@@ -58,10 +58,10 @@ Keep working with the agent in Claude Code for deeper analysis:
 Delivery is only offered after the first recommendation exists.
 
 - **Manual in Claude Code** (default): review, approve, edit, or reject recommendations directly in chat
-- **Email via Resend:** requires `RESEND_API_KEY` and `RESEND_FROM_EMAIL`.
-  Go to [Resend API keys](https://resend.com/api-keys), create a key, export both values in your shell, then tell the agent which email should receive recommendations
-- **Slack via incoming webhook:** requires `SLACK_WEBHOOK_URL`.
-  Go to [Slack apps](https://api.slack.com/apps), create an app, enable Incoming Webhooks, copy the webhook URL, export it in your shell, then tell the agent which Slack channel to notify
+- **Email via Resend:** requires a Resend API key and sender email.
+  Go to [Resend API keys](https://resend.com/api-keys), create a key, then paste the key in chat when the agent asks. The agent will also ask which sender email and delivery inbox to use
+- **Slack via incoming webhook:** requires a Slack webhook URL.
+  Go to [Slack apps](https://api.slack.com/apps), create an app, enable Incoming Webhooks, then paste the webhook URL in chat when the agent asks. The agent will also ask which Slack channel to notify
 - **Email + Slack:** full recommendation by email, condensed notification in Slack
 
 Delivery method, destination, schedule, and timezone are stored in the `delivery` table inside `marketing.db`.
