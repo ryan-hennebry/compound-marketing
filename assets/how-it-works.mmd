@@ -2,28 +2,28 @@ flowchart TB
   subgraph SETUP["1) One-time setup in Claude"]
     A["Paste one command in Terminal"]
     B["Share company URL or company name"]
-    C["Agent researches positioning, ICP,<br/>differentiators, and perceptions"]
-    D["Choose channels and connect API or CSV inputs"]
+    C["Agent researches positioning,<br/>audience, differentiators,<br/>and company perceptions"]
+    D["Choose channels and connect data"]
     E["First recommendation is generated"]
     A --> B --> C --> D --> E
   end
 
   subgraph CYCLE["2) Recommendation cycle"]
-    F["Run manually in Claude or on schedule via run.sh"]
-    G["Agent fetches metrics and published content"]
-    H["OODA loop applies XMR signal detection,<br/>GACC brief structure, and customer-story framing"]
-    I["One recommendation is saved in marketing.db"]
-    J["After first value, delivery can be enabled:<br/>manual, email, Slack, or both"]
+    F["Run in Claude or on a schedule"]
+    G["Agent reviews channel metrics<br/>and recent content"]
+    H["Agent checks whether changes look meaningful<br/>and chooses one experiment to recommend"]
+    I["You receive the recommendation,<br/>reasoning, and draft-ready copy"]
+    J["After the first recommendation,<br/>you can turn on email or Slack delivery"]
     F --> G --> H --> I --> J
   end
 
   subgraph COMPOUND["3) Compounding loop"]
-    K["You approve, edit, reject, or confirm what shipped"]
-    L["Results become learnings and principles"]
+    K["You approve, edit, reject,<br/>or ask follow-up questions"]
+    L["The agent records learnings from<br/>your decisions and results"]
     M["The next recommendation gets more specific"]
     K --> L --> M
   end
 
   E --> F
   J --> K
-  L -. "Improves future runs" .-> H
+  L -. "Improves the next run" .-> H

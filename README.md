@@ -57,6 +57,14 @@ Delivery is only offered after the first recommendation exists.
 
 You can set up or change delivery directly in chat.
 
+## The agent's output
+
+- One recommendation at a time, based on the campaign data the agent has available
+- Clear reasoning on why the recommendation was chosen and whether the change looks meaningful
+- Draft-ready copy for the selected channel
+- Learnings carried forward from previous approvals, edits, rejections, and results
+- Delivery you can set up or change directly in chat
+
 ## How it works
 
 <picture>
@@ -65,14 +73,6 @@ You can set up or change delivery directly in chat.
 </picture>
 
 *Diagram source: `assets/how-it-works.mmd`.*
-
-## The agent's output
-
-- One recommendation at a time, based on the campaign data the agent has available
-- Clear reasoning on why the recommendation was chosen and whether the change looks meaningful
-- Draft-ready copy for the selected channel
-- Learnings carried forward from previous approvals, edits, rejections, and results
-- Delivery you can set up or change directly in chat
 
 ## Project standards
 
