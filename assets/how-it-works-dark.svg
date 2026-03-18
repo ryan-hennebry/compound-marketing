@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1020" width="620" height="1020" style="--bg:#0d1117;--fg:#e6edf3;--muted:#9da7b3;--line:#30363d;--group:#11161d;--card:#161b22;--accent:#58a6ff;--accent-soft:#0d2d4d;--success:#3fb950;--success-soft:#12261a">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; fill: var(--fg); }
+  .group { fill: var(--group); stroke: var(--line); stroke-width: 1.2; rx: 18; }
+  .group-title { font-size: 13px; font-weight: 700; fill: var(--muted); }
+  .card { fill: var(--card); stroke: var(--line); stroke-width: 1.2; rx: 14; }
+  .card-title { font-size: 15px; font-weight: 700; }
+  .card-copy { font-size: 13px; fill: var(--muted); }
+  .pill { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+  .accent-pill { fill: var(--accent-soft); stroke: none; rx: 999; }
+  .success-pill { fill: var(--success-soft); stroke: none; rx: 999; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="var(--accent)" />
+  </marker>
+  <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="var(--success)" />
+  </marker>
+</defs>
+
+<rect x="52" y="32" width="516" height="308" class="group" />
+<text x="76" y="60" class="group-title">1) One-time setup in Claude</text>
+
+<rect x="84" y="82" width="452" height="52" class="card" />
+<rect x="102" y="96" width="76" height="20" class="accent-pill" />
+<text x="140" y="110" text-anchor="middle" class="pill" fill="var(--accent)">Start</text>
+<text x="102" y="128" class="card-title">Paste one command in Terminal</text>
+
+<rect x="84" y="154" width="452" height="74" class="card" />
+<text x="102" y="180" class="card-title">Share your company URL or name</text>
+<text x="102" y="201" class="card-copy">The agent researches positioning, ICP, differentiators,</text>
+<text x="102" y="219" class="card-copy">and proposes 3-5 perceptions to validate.</text>
+
+<rect x="84" y="248" width="452" height="72" class="card" />
+<text x="102" y="274" class="card-title">Choose channels and connect inputs</text>
+<text x="102" y="295" class="card-copy">Each channel is set up for API access or CSV/manual</text>
+<text x="102" y="313" class="card-copy">sync, with draft-only, auto-stage, or auto-post control.</text>
+
+<line x1="310" y1="134" x2="310" y2="154" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="310" y1="228" x2="310" y2="248" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)" />
+
+<rect x="52" y="380" width="516" height="336" class="group" />
+<text x="76" y="408" class="group-title">2) Recommendation cycle</text>
+
+<rect x="84" y="430" width="452" height="56" class="card" />
+<text x="102" y="456" class="card-title">Run manually in Claude or on schedule via `run.sh`</text>
+<text x="102" y="476" class="card-copy">The scheduled entry point runs the same CLAUDE.md method.</text>
+
+<rect x="84" y="506" width="452" height="76" class="card" />
+<text x="102" y="532" class="card-title">Observe: metrics and published content</text>
+<text x="102" y="553" class="card-copy">The agent reads channel data, checks for shipped drafts,</text>
+<text x="102" y="571" class="card-copy">and compares current performance to recent baselines.</text>
+
+<rect x="84" y="602" width="452" height="88" class="card" />
+<text x="102" y="628" class="card-title">Orient + decide: OODA, XMR, GACC, customer story</text>
+<text x="102" y="649" class="card-copy">It separates signal from noise, chooses one recommendation,</text>
+<text x="102" y="667" class="card-copy">and drafts channel-specific content with expected impact.</text>
+
+<line x1="310" y1="486" x2="310" y2="506" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)" />
+<line x1="310" y1="582" x2="310" y2="602" stroke="var(--accent)" stroke-width="2" marker-end="url(#arrow)" />
+
+<rect x="84" y="730" width="452" height="240" class="group" />
+<text x="108" y="758" class="group-title">3) Compounding loop</text>
+
+<rect x="116" y="780" width="388" height="70" class="card" />
+<rect x="134" y="794" width="108" height="20" class="success-pill" />
+<text x="188" y="808" text-anchor="middle" class="pill" fill="var(--success)">First value</text>
+<text x="134" y="826" class="card-title">The first recommendation is saved in `marketing.db`</text>
+<text x="134" y="844" class="card-copy">Only then does the agent offer delivery setup.</text>
+
+<rect x="116" y="870" width="388" height="74" class="card" />
+<text x="134" y="896" class="card-title">Approve, edit, reject, or confirm what shipped</text>
+<text x="134" y="917" class="card-copy">Email via Resend and Slack via webhook stay optional.</text>
+<text x="134" y="935" class="card-copy">The `delivery` table stores destination, time, and timezone.</text>
+
+<line x1="310" y1="320" x2="310" y2="430" stroke="var(--accent)" stroke-width="2.4" marker-end="url(#arrow)" />
+<line x1="310" y1="690" x2="310" y2="780" stroke="var(--accent)" stroke-width="2.4" marker-end="url(#arrow)" />
+
+<path d="M504 907 C560 907, 576 648, 536 648" fill="none" stroke="var(--success)" stroke-width="2.2" stroke-dasharray="7 7" marker-end="url(#arrow-dashed)" />
+<text x="540" y="777" transform="rotate(-90 540 777)" class="group-title" fill="var(--success)">Learnings and principles improve the next run</text>
+</svg>
