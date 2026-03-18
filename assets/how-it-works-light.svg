@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 801.568 1094.4" width="801.568" height="1094.4" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e;background:var(--bg)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.15924999999993 1186.7" width="486.15924999999993" height="1186.7" style="--bg:#ffffff;--fg:#1f2328;--line:#57606a;--accent:#0969da;--muted:#59636e;background:var(--bg)">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
   text { font-family: 'Inter', system-ui, sans-serif; }
@@ -27,95 +27,74 @@
   </marker>
 </defs>
 <g class="subgraph" data-id="SETUP" data-label="1) One-time setup in Claude">
-  <rect x="443.613" y="48" width="299.9549999999999" height="446.29999999999995" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="443.613" y="48" width="299.9549999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="455.613" y="62" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">1) One-time setup in Claude</text>
+  <rect x="47.780500000000025" y="40" width="276.243" height="300.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="47.780500000000025" y="40" width="276.243" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="59.780500000000025" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">1) One-time setup in Claude</text>
 </g>
 <g class="subgraph" data-id="CYCLE" data-label="2) Recommendation cycle">
-  <rect x="302.16225000000003" y="548.3" width="362.6255" height="480.1" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="302.16225000000003" y="548.3" width="362.6255" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="314.16225000000003" y="562.3" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">2) Recommendation cycle</text>
+  <rect x="59.63650000000005" y="400.5" width="386.5227499999999" height="317.40000000000003" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="59.63650000000005" y="400.5" width="386.5227499999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="71.63650000000004" y="414.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">2) Recommendation cycle</text>
 </g>
 <g class="subgraph" data-id="COMPOUND" data-label="3) Compounding loop">
-  <rect x="36" y="143.49999999999994" width="380.0947499999999" height="288.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <rect x="36" y="143.49999999999994" width="380.0947499999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
-  <text x="48" y="157.49999999999994" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">3) Compounding loop</text>
+  <rect x="40" y="846.2" width="312.23749999999995" height="300.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="846.2" width="312.23749999999995" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="860.2" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">3) Compounding loop</text>
 </g>
-<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="593.5905,478.29999999999995 593.5905,530.3 538.15175,530.3 538.15175,592.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="J" data-to="K" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="477.33375,1012.4 477.33375,1046.4 753.568,1046.4 753.568,36 281.30774999999994,36 281.30774999999994,179.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="L" data-to="H" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Improves the next run" points="320.90341666666666,337.09999999999997 320.90341666666666,349.09999999999997 361.07699999999994,349.09999999999997 361.07699999999994,530.3 416.51575,530.3 416.51575,737 424.27658333333335,737 424.27658333333335,767" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="593.5905,128.9 593.5905,179.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="593.5905,216.1 593.5905,249.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="C" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="593.5905,320.5 593.5905,370.79999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="D" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="593.5905,407.69999999999993 593.5905,441.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="538.15175,629.1999999999999 538.15175,671.1999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="G" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="538.15175,725 538.15175,737 530.3909166666667,737 530.3909166666667,767" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="477.33375,820.8 477.33375,862.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="I" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="477.33375,916.5999999999999 477.33375,958.5999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="K" data-to="L" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="281.30774999999994,233 281.30774999999994,283.29999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<polyline class="edge" data-from="L" data-to="M" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="241.71208333333328,337.09999999999997 241.71208333333328,349.09999999999997 201.53849999999997,349.09999999999997 201.53849999999997,370.79999999999995" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
-<g class="edge-label" data-from="L" data-to="H" data-label="Improves the next run">
-  <rect x="301.57699999999994" y="474.99999999999994" width="118.03600000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
-  <text x="360.59499999999997" y="490.1499999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Improves the next run</text>
+<polyline class="edge" data-from="C" data-to="E" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="185.90200000000002,324.5 185.90200000000002,444.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="G" data-to="H" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="270.98775,701.9000000000001 270.98775,828.2 251.44387499999996,828.2 251.44387499999996,828.2 239.6805,828.2 239.6805,890.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="J" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="Improves next run" points="149.14683333333335,498.3 149.14683333333335,510.3 100.81625000000001,510.3 100.81625,759.9000000000001 120.36012500000001,759.9000000000001 120.36012500000001,828.2 132.1235,828.2 132.1235,1057.8000000000002 142.60133333333332,1057.8000000000002 142.60133333333332,1093.8000000000002" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="185.90200000000002,120.9 185.90200000000002,168.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="185.90200000000002,239.60000000000002 185.90200000000002,287.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="E" data-to="F" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="222.65716666666665,498.3 222.65716666666665,510.3 270.98775,510.3 270.98775,546.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="F" data-to="G" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="270.98775,600.1 270.98775,648.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="H" data-to="I" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="239.6805,944 239.6805,992" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="I" data-to="J" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="239.6805,1045.8000000000002 239.6805,1057.8000000000002 229.20266666666666,1057.8000000000002 229.20266666666666,1093.8000000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="E" data-to="J" data-label="Improves next run">
+  <rect x="69.36012500000001" y="766.9000000000001" width="101.99800000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="120.35912500000002" y="782.0500000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Improves next run</text>
 </g>
 <g class="node" data-id="A" data-label="Paste one command in Terminal" data-shape="rectangle">
-  <rect x="481.47249999999997" y="92" width="224.23599999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="593.5904999999999" y="110.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Paste one command in Terminal</text>
+  <rect x="73.78400000000005" y="84" width="224.23599999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.90200000000002" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Paste one command in Terminal</text>
 </g>
-<g class="node" data-id="B" data-label="Share company URL or company name" data-shape="rectangle">
-  <rect x="459.613" y="179.2" width="267.9549999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="593.5905" y="197.64999999999998" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Share company URL or company name</text>
-</g>
-<g class="node" data-id="C" data-label="Agent researches positioning,
-audience, differentiators,
+<g class="node" data-id="B" data-label="Answer onboarding questions:
+company, channels,
 and company perceptions" data-shape="rectangle">
-  <rect x="484.4365" y="249.8" width="218.30799999999994" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="593.5905" y="285.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="593.5905" dy="-12.350000000000001">Agent researches positioning,</tspan><tspan x="593.5905" dy="16.900000000000002">audience, differentiators,</tspan><tspan x="593.5905" dy="16.900000000000002">and company perceptions</tspan></text>
+  <rect x="75.26600000000005" y="168.9" width="221.27199999999996" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.90200000000004" y="204.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="185.90200000000004" dy="-12.350000000000001">Answer onboarding questions:</tspan><tspan x="185.90200000000004" dy="16.900000000000002">company, channels,</tspan><tspan x="185.90200000000004" dy="16.900000000000002">and company perceptions</tspan></text>
 </g>
-<g class="node" data-id="D" data-label="Choose channels and connect data" data-shape="rectangle">
-  <rect x="470.35749999999996" y="370.79999999999995" width="246.46599999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="593.5904999999999" y="389.24999999999994" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Choose channels and connect data</text>
+<g class="node" data-id="C" data-label="First recommendation is generated" data-shape="rectangle">
+  <rect x="63.780500000000025" y="287.6" width="244.243" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.90200000000002" y="306.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">First recommendation is generated</text>
 </g>
-<g class="node" data-id="E" data-label="First recommendation is generated" data-shape="rectangle">
-  <rect x="471.46899999999994" y="441.4" width="244.243" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="593.5904999999999" y="459.84999999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">First recommendation is generated</text>
-</g>
-<g class="node" data-id="F" data-label="Run in Claude or on a schedule" data-shape="rectangle">
-  <rect x="427.51575" y="592.3" width="221.272" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="538.15175" y="610.75" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Run in Claude or on a schedule</text>
-</g>
-<g class="node" data-id="G" data-label="Agent reviews channel metrics
+<g class="node" data-id="E" data-label="Agent reviews channel metrics
 and recent content" data-shape="rectangle">
-  <rect x="427.88625" y="671.1999999999999" width="220.53099999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="538.15175" y="698.0999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="538.15175" dy="-3.9000000000000012">Agent reviews channel metrics</tspan><tspan x="538.15175" dy="16.900000000000002">and recent content</tspan></text>
+  <rect x="75.63650000000004" y="444.5" width="220.53099999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.90200000000002" y="471.4" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="185.90200000000002" dy="-3.9000000000000012">Agent reviews channel metrics</tspan><tspan x="185.90200000000002" dy="16.900000000000002">and recent content</tspan></text>
 </g>
-<g class="node" data-id="H" data-label="Agent checks whether changes look meaningful
+<g class="node" data-id="F" data-label="Agent checks whether changes look meaningful
 and chooses one experiment to recommend" data-shape="rectangle">
-  <rect x="318.16225000000003" y="767" width="318.34299999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="477.33375" y="793.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="477.33375" dy="-3.9000000000000012">Agent checks whether changes look meaningful</tspan><tspan x="477.33375" dy="16.900000000000002">and chooses one experiment to recommend</tspan></text>
+  <rect x="111.81625000000003" y="546.3" width="318.34299999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="270.98775" y="573.1999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="270.98775" dy="-3.9000000000000012">Agent checks whether changes look meaningful</tspan><tspan x="270.98775" dy="16.900000000000002">and chooses one experiment to recommend</tspan></text>
 </g>
-<g class="node" data-id="I" data-label="You receive the recommendation,
-reasoning, and draft-ready copy" data-shape="rectangle">
-  <rect x="359.65825000000007" y="862.8" width="235.35099999999994" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="477.33375" y="889.6999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="477.33375" dy="-3.9000000000000012">You receive the recommendation,</tspan><tspan x="477.33375" dy="16.900000000000002">reasoning, and draft-ready copy</tspan></text>
+<g class="node" data-id="G" data-label="Recommendation is delivered with reasoning,
+draft-ready copy, and optional email or Slack" data-shape="rectangle">
+  <rect x="119.59675000000001" y="648.1" width="302.782" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="270.98775" y="675" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="270.98775" dy="-3.9000000000000012">Recommendation is delivered with reasoning,</tspan><tspan x="270.98775" dy="16.900000000000002">draft-ready copy, and optional email or Slack</tspan></text>
 </g>
-<g class="node" data-id="J" data-label="After the first recommendation,
-you can turn on email or Slack delivery" data-shape="rectangle">
-  <rect x="344.09725000000003" y="958.5999999999999" width="266.47299999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="477.33375" y="985.4999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="477.33375" dy="-3.9000000000000012">After the first recommendation,</tspan><tspan x="477.33375" dy="16.900000000000002">you can turn on email or Slack delivery</tspan></text>
-</g>
-<g class="node" data-id="K" data-label="You approve, edit, reject,
+<g class="node" data-id="H" data-label="You approve, edit, reject,
 or ask follow-up questions" data-shape="rectangle">
-  <rect x="184.75074999999995" y="179.2" width="193.11399999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="281.30774999999994" y="206.1" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="281.30774999999994" dy="-3.9000000000000012">You approve, edit, reject,</tspan><tspan x="281.30774999999994" dy="16.900000000000002">or ask follow-up questions</tspan></text>
+  <rect x="143.1235" y="890.2" width="193.11399999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="239.6805" y="917.1" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="239.6805" dy="-3.9000000000000012">You approve, edit, reject,</tspan><tspan x="239.6805" dy="16.900000000000002">or ask follow-up questions</tspan></text>
 </g>
-<g class="node" data-id="L" data-label="The agent records learnings from
-your decisions and results" data-shape="rectangle">
-  <rect x="162.52074999999996" y="283.29999999999995" width="237.57399999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="281.30774999999994" y="310.19999999999993" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="281.30774999999994" dy="-3.9000000000000012">The agent records learnings from</tspan><tspan x="281.30774999999994" dy="16.900000000000002">your decisions and results</tspan></text>
+<g class="node" data-id="I" data-label="Agent records learnings,
+preferences, and results" data-shape="rectangle">
+  <rect x="145.34650000000002" y="992" width="188.66799999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="239.6805" y="1018.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="239.6805" dy="-3.9000000000000012">Agent records learnings,</tspan><tspan x="239.6805" dy="16.900000000000002">preferences, and results</tspan></text>
 </g>
-<g class="node" data-id="M" data-label="The next recommendation gets more specific" data-shape="rectangle">
-  <rect x="52" y="370.79999999999995" width="299.07699999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="201.53849999999997" y="389.24999999999994" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">The next recommendation gets more specific</text>
+<g class="node" data-id="J" data-label="Next recommendation is more specific" data-shape="rectangle">
+  <rect x="56" y="1093.8000000000002" width="259.804" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="185.902" y="1112.2500000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Next recommendation is more specific</text>
 </g>
 </svg>

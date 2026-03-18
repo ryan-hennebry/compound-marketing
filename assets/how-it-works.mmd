@@ -1,29 +1,25 @@
 flowchart TB
   subgraph SETUP["1) One-time setup in Claude"]
     A["Paste one command in Terminal"]
-    B["Share company URL or company name"]
-    C["Agent researches positioning,<br/>audience, differentiators,<br/>and company perceptions"]
-    D["Choose channels and connect data"]
-    E["First recommendation is generated"]
-    A --> B --> C --> D --> E
+    B["Answer onboarding questions:<br/>company, channels,<br/>and company perceptions"]
+    C["First recommendation is generated"]
+    A --> B --> C
   end
 
   subgraph CYCLE["2) Recommendation cycle"]
-    F["Run in Claude or on a schedule"]
-    G["Agent reviews channel metrics<br/>and recent content"]
-    H["Agent checks whether changes look meaningful<br/>and chooses one experiment to recommend"]
-    I["You receive the recommendation,<br/>reasoning, and draft-ready copy"]
-    J["After the first recommendation,<br/>you can turn on email or Slack delivery"]
-    F --> G --> H --> I --> J
+    E["Agent reviews channel metrics<br/>and recent content"]
+    F["Agent checks whether changes look meaningful<br/>and chooses one experiment to recommend"]
+    G["Recommendation is delivered with reasoning,<br/>draft-ready copy, and optional email or Slack"]
+    E --> F --> G
   end
 
   subgraph COMPOUND["3) Compounding loop"]
-    K["You approve, edit, reject,<br/>or ask follow-up questions"]
-    L["The agent records learnings from<br/>your decisions and results"]
-    M["The next recommendation gets more specific"]
-    K --> L --> M
+    H["You approve, edit, reject,<br/>or ask follow-up questions"]
+    I["Agent records learnings,<br/>preferences, and results"]
+    J["Next recommendation is more specific"]
+    H --> I --> J
   end
 
-  E --> F
-  J --> K
-  L -. "Improves the next run" .-> H
+  C --> E
+  G --> H
+  E -. "Improves next run" .-> J
