@@ -60,9 +60,9 @@
 </g>
 <g class="node" data-id="B" data-label="Answer onboarding questions:
 company, channels,
-and company perceptions" data-shape="rectangle">
+and phrases to reinforce" data-shape="rectangle">
   <rect x="75.26600000000005" y="168.9" width="221.27199999999996" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="185.90200000000004" y="204.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="185.90200000000004" dy="-12.350000000000001">Answer onboarding questions:</tspan><tspan x="185.90200000000004" dy="16.900000000000002">company, channels,</tspan><tspan x="185.90200000000004" dy="16.900000000000002">and company perceptions</tspan></text>
+  <text x="185.90200000000004" y="204.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="185.90200000000004" dy="-12.350000000000001">Answer onboarding questions:</tspan><tspan x="185.90200000000004" dy="16.900000000000002">company, channels,</tspan><tspan x="185.90200000000004" dy="16.900000000000002">and phrases to reinforce</tspan></text>
 </g>
 <g class="node" data-id="C" data-label="First recommendation is generated" data-shape="rectangle">
   <rect x="63.780500000000025" y="287.6" width="244.243" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />

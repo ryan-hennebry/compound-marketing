@@ -1,10 +1,10 @@
 # Compound Marketing Agent
 
-Analyse marketing campaign metrics and receive growth experiment recommendations based on data.
+Turn campaign metrics into one clear growth experiment to run next, with draft-ready copy for the chosen channel.
 
 No coding experience required.
 
-<img src="assets/cli-demo-full.gif" alt="Compound Marketing CLI onboarding, first recommendation, and delivery setup demo" width="896" />
+<img src="assets/cli-demo-full.gif" alt="Compound Marketing CLI onboarding, first recommendation, and optional delivery setup demo" width="896" />
 
 ## Quick start
 
@@ -21,7 +21,7 @@ git clone https://github.com/ryan-hennebry/compound-marketing.git && cd compound
 ## The onboarding flow
 
 - Share your company URL or name
-- The agent researches your company positioning, audience, differentiators, and proposes 3-5 company perceptions to validate
+- The agent researches your positioning, audience, differentiators, and suggests 3-5 phrases you want customers to repeat back
 - Choose which channel metrics to track
 - If a channel needs access, the agent walks you through connecting it or using CSV/manual input
 - The agent reviews performance patterns and generates the first recommendation
@@ -47,13 +47,13 @@ Keep working with the agent in Claude Code for deeper analysis:
 - "If I reject this, how will you improve future recommendations?"
 - "Show me my last 10 recommendations split by experiment type."
 
-## Delivery options
+## Optional delivery
 
 Delivery is only offered after the first recommendation exists.
 
 - **Manual in Claude Code** (default): review, approve, edit, or reject recommendations directly in chat
-- **Email via Resend:** when the agent asks, open [Resend](https://resend.com/api-keys), create an API key, and paste it into chat
-- **Slack via incoming webhook:** when the agent asks, open [Slack app setup](https://api.slack.com/apps), create an Incoming Webhook for the channel you want, and paste the webhook URL into chat
+- **Email via Resend:** if you choose email later, the agent walks you through the one-time [Resend](https://resend.com/api-keys) setup
+- **Slack via incoming webhook:** if you choose Slack later, the agent walks you through the one-time [Slack](https://api.slack.com/apps) setup
 
 You can set up or change delivery directly in chat.
 
