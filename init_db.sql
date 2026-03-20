@@ -1,4 +1,4 @@
--- Compound Marketing Agent SQLite Schema
+-- Growth Experiments Agent SQLite Schema
 -- Initialize with: sqlite3 marketing.db < init_db.sql
 
 -- Company profile (includes perceptions)

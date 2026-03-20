@@ -1,10 +1,10 @@
-# Compound Marketing Agent
+# Growth Experiments Agent
 
 Turn campaign metrics into one clear growth experiment to run next, with draft-ready copy for the chosen channel.
 
 No coding experience required.
 
-<img src="assets/cli-demo-full.gif" alt="Compound Marketing CLI onboarding, first recommendation, and optional delivery setup demo" width="896" />
+<img src="assets/cli-demo-growth-experiments.gif" alt="Growth Experiments CLI onboarding, first recommendation, and optional delivery setup demo" width="896" />
 
 ## Quick start
 
@@ -13,7 +13,7 @@ No coding experience required.
 1. Paste this command into **Terminal** (Mac) or **PowerShell** (Windows):
 
 ```bash
-git clone https://github.com/ryan-hennebry/compound-marketing.git && cd compound-marketing && claude --dangerously-skip-permissions
+git clone https://github.com/ryan-hennebry/growth-experiments.git && cd growth-experiments && claude --dangerously-skip-permissions
 ```
 
 2. In Claude Code, complete onboarding by chatting with the agent.
@@ -69,7 +69,7 @@ You can set up or change delivery directly in chat.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/how-it-works-dark.svg">
-  <img src="assets/how-it-works-light.svg" alt="How Compound Marketing Agent works" width="560" />
+  <img src="assets/how-it-works-light.svg" alt="How Growth Experiments Agent works" width="560" />
 </picture>
 
 *Diagram source: `assets/how-it-works.mmd`.*

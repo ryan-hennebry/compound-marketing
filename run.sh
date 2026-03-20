@@ -1,5 +1,5 @@
 #!/bin/bash
-# Compound Marketing Agent - Scheduled Run
+# Growth Experiments Agent - Scheduled Run
 set -e
 
 cd "$(dirname "$0")"
@@ -33,4 +33,4 @@ fi
 
 # Goal-oriented prompt — tell the agent WHAT, not HOW
 claude --dangerously-skip-permissions \
-  -p "Generate today's marketing recommendation. Follow CLAUDE.md methodology."
+  -p "Generate today's growth experiment recommendation. Follow CLAUDE.md methodology."

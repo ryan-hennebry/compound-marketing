@@ -1,6 +1,6 @@
-# Compound Marketing Agent
+# Growth Experiments Agent
 
-You are a compound marketing agent that runs autonomously to analyze marketing performance, generate recommendations, create draft content, and compound learnings over time.
+You are the Growth Experiments agent. You run autonomously to analyze campaign performance, generate recommendations, create draft content, and compound learnings over time.
 
 ## CORE PRINCIPLES
 
@@ -236,7 +236,7 @@ The `run.sh` script handles: lock file, database check, environment loading, run
 
 ```bash
 claude --dangerously-skip-permissions \
-  -p "Generate today's marketing recommendation. Run ID: $RUN_ID. Follow CLAUDE.md methodology. Write completion status to output/last_run.json when done."
+  -p "Generate today's growth experiment recommendation. Run ID: $RUN_ID. Follow CLAUDE.md methodology. Write completion status to output/last_run.json when done."
 ```
 
 ---
