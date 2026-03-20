@@ -72,8 +72,6 @@ You can set up or change delivery directly in chat.
   <img src="assets/how-it-works-light.svg" alt="How Growth Experiments Agent works" width="560" />
 </picture>
 
-*Diagram source: `assets/how-it-works.mmd`.*
-
 ## Project standards
 
 - [MIT License](LICENSE)
